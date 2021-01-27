@@ -1,6 +1,7 @@
 # Terraform AWS IaC
 
 ## Usage:
+- Change Directory to the Directory housing the terraform scirpt
 - To Initialize:
 > terraform init
 
