@@ -53,8 +53,9 @@ The **Elastic Load Balancer** acts as the **single point of access** to the webs
 
 The **Bastion Host**, acts as our **point of entry** into the private subnet serving the EC2 Instances in the Auto Scaling Group. To faciliate that, the Bastion Host is provided with an **Easltic IP**
 
-2 Elastic IPs are used in the entire Infrastructure:
+Two Elastic IPs are used in the entire Infrastructure:
 1. Nat Gateway
 2. Bastion Host
- 
+
+- Dot Graph File present in the Repository, showcases the build procedure followed by Terraform 
 
