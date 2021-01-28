@@ -10,6 +10,21 @@
 8. Not to use any tertiaty Configuration Management Tool
 9. Automatically Add and Remove Nodes based on load metrics
 10. Manage growth and storage of logs
+## Environment Setup:
+- Place your AWS access key id and secret access key in a file named **credentials** housed in a folder named **.aws**. **.aws** should be placed in your home directory ideally at `/home/<user-name>/`. 
+<br />The **syntax** of **credentials** should be as follows:<br />
+`[default]`<br />
+`aws_access_key_id=xxxxx`<br />
+`aws_secret_access_key=xxxxx`
+
+- Installation in Linux:<br />
+`wget https://releases.hashicorp.com/terraform/0.14.0/terraform_0.14.0_darwin_amd64.zip`<br />
+`unzip ./ terraform_0.12.2_linux_amd64.zip –d /usr/local/bin`
+
+- Testing Installation:<br />
+`terraform -v`
+
+
 ## Usage:
 - Change Directory to the Directory housing the terraform scirpt
 - To Initialize:
